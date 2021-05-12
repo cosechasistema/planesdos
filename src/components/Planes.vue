@@ -1,5 +1,50 @@
 <template>
   <v-container>
+
+  <v-card
+    class="mx-auto"
+    max-width="344"
+    :elevation= 10
+  >
+
+
+    <v-img
+      contain
+      src="../assets/Credencial-Integral-A.png"
+      height="300px"
+    ></v-img>
+
+    <v-card-title>
+      <p>Plan Integral</p>
+    </v-card-title>
+
+    <v-card-subtitle>
+      <p>Consultas médicas ambulatorias 100%</p>
+<p>Prácticas médicas, bioquímicas, radiológicas 100% (con autorización y con coseguro)</p>
+<p>Prácticas Kinesiológicas 100% (con autorización y con coseguro)</p>
+<p>Medicamentos ambulatorios VADEMECUM LIBRE</p>
+<p>En farmacia propia descuentos de 30% + hasta un 20%</p>
+<p>Farmacias adheridas descuentos 30%</p>
+<p>Odontología 100% (excluido prótesis y ortodoncia) (con autorización)</p>
+<p>Internaciones clínicas y/o quirúrgicas ( con autorización y sin coseguro)</p>
+<p>Medicamentos y descartables en internaciones 100%</p>
+<p>Cirugías y prácticas de alta complejidad nomecladas ( con autorización y con coseguro)</p>
+<p>Cirugía y prácticas de alta complejidad NO nomecladas ( con autorización y con coseguro)</p>
+<p>Ordenes con cargo</p>
+    </v-card-subtitle>
+
+
+    <v-expand-transition>
+      <div v-show="show">
+        <v-divider></v-divider>
+
+        <v-card-text>
+          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+        </v-card-text>
+      </div>
+    </v-expand-transition>
+  </v-card>
+
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
@@ -92,60 +137,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'HelloWorld',
+export default {
 
-    data: () => ({
-      ecosystem: [
-        {
-          text: 'vuetify-loader',
-          href: 'https://github.com/vuetifyjs/vuetify-loader',
-        },
-        {
-          text: 'github',
-          href: 'https://github.com/vuetifyjs/vuetify',
-        },
-        {
-          text: 'awesome-vuetify',
-          href: 'https://github.com/vuetifyjs/awesome-vuetify',
-        },
-      ],
-      importantLinks: [
-        {
-          text: 'Documentation',
-          href: 'https://vuetifyjs.com',
-        },
-        {
-          text: 'Chat',
-          href: 'https://community.vuetifyjs.com',
-        },
-        {
-          text: 'Made with Vuetify',
-          href: 'https://madewithvuejs.com/vuetify',
-        },
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/vuetifyjs',
-        },
-        {
-          text: 'Articles',
-          href: 'https://medium.com/vuetify',
-        },
-      ],
-      whatsNext: [
-        {
-          text: 'Explore components',
-          href: 'https://vuetifyjs.com/components/api-explorer',
-        },
-        {
-          text: 'Select a layout',
-          href: 'https://vuetifyjs.com/getting-started/pre-made-layouts',
-        },
-        {
-          text: 'Frequently Asked Questions',
-          href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions',
-        },
-      ],
-    }),
-  }
+}
 </script>
