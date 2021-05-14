@@ -1,25 +1,141 @@
 <template>
   <v-container>
 
+
   <v-card
     class="mx-auto"
     max-width="344"
-    :elevation= 10
+    :elevation= 14
   >
-
+  <div class="text-center">
+<v-chip
+      class="ma-2"
+      color="primary"
+      outlined
+      pill
+    >
+      Planes Mutual Cosecha Salud
+      <v-icon right>
+        mdi-account-outline
+      </v-icon>
+    </v-chip>
+  </div>
 
     <v-img
       contain
-      src="../assets/Credencial-Integral-A.png"
-      height="300px"
+      src="../assets/Frente-Carnet-VIP-Dorado.png"
+      height="379px"
     ></v-img>
 
     <v-card-title>
-      <p>Plan Integral</p>
+      <p>VIP DORADO</p>
     </v-card-title>
 
     <v-card-subtitle>
       <p>Consultas médicas ambulatorias 100%</p>
+<p>Prácticas médicas, bioquímicas, radiológicas 100% (sin autorización) </p>  
+<p>Prácticas Kinesiológicas 100% ( hasta 06 sesiones sin autorización)</p>
+<p>Medicamentos ambulatorios VADEMECUM LIBRE</p>
+<p>En farmacia propia descuentos de 30% + hasta un 20%</p>
+<p>Farmacias adheridas descuentos 30%</p>
+<p>Odontología 100% (excluído prótesis y ortodoncia) (sin autorización)</p>
+<p>Internaciones clínicas y/o quirúrgicas ( con autorización y sin coseguro)</p>
+<p>Medicamentos y descartables en internaciones 100%</p>
+<p>Cirugías y prácticas de alta complejidad nomecladas ( con autorización y sin coseguro)</p>
+<p>Prácticas de alta complejidad NO nomecladas ( con autorización y con coseguro)</p>
+<p>No requiere ordenes</p>
+    </v-card-subtitle>
+    <div class="text-center">
+    <v-card-actions>
+       
+    <v-btn
+      rounded
+      color="primary"
+      dark
+      href="https://cosechasalud.com" 
+      target="_blank"
+    >
+      Visitar Mutual cosecha Salud
+    </v-btn>
+ 
+    </v-card-actions>
+   </div>
+  </v-card>
+
+<v-divider
+  inset
+></v-divider>
+
+  <v-card
+    class="mx-auto"
+    max-width="344"
+    :elevation= 14
+  >
+
+    <v-img
+      contain
+      src="../assets/Frente-Carnet-Premium.png"
+      height="379px"
+    ></v-img>
+
+    <v-card-title>
+      <p>PREMIUM</p>
+    </v-card-title>
+
+    <v-card-text>
+      <p>Consultas médicas ambulatorias 100%</p>
+<p>Prácticas médicas, bioquímicas, radiológicas 100% (con autorización y sin coseguro)</p>
+<p>Prácticas Kinesiológicas 100% (con autorización y sin coseguro)</p>
+<p>Medicamentos ambulatorios VADEMECUM LIBRE</p>
+<p>En farmacia propia descuentos de 30% + hasta un 20%</p>
+<p>Farmacias adheridas descuentos 30%</p>
+<p>Odontología 100% (excluido prótesis y ortodoncia) (con autorización)</p>
+<p>Internaciones clínicas y/o quirúrgicas ( con autorización y sin coseguro)</p>
+<p>Medicamentos y descartables en internaciones 100%</p>
+<p>Cirugías y prácticas de alta complejidad nomecladas ( con autorización y sin coseguro)</p>
+<p>Cirugía y prácticas de alta complejidad NO nomecladas ( con autorización y con coseguro)</p>
+<p>Ordenes con cargo</p>
+    </v-card-text>
+    <div class="text-center">
+    <v-card-actions>
+       
+    <v-btn
+      rounded
+      color="primary"
+      dark
+      href="https://cosechasalud.com" 
+      target="_blank"
+    >
+      Visitar Mutual cosecha Salud
+    </v-btn>
+ 
+    </v-card-actions>
+   </div>
+  </v-card>
+ 
+
+<v-divider
+  inset
+></v-divider>
+
+  <v-card
+    class="mx-auto"
+    max-width="344"
+    :elevation= 14
+  >
+
+    <v-img
+      contain
+      src="../assets/Frente-carnet-Integral.png"
+      height="379px"
+    ></v-img>
+
+    <v-card-title>
+      <p>PI INTEGRAL</p>
+    </v-card-title>
+
+    <v-card-text>
+     <p>Consultas médicas ambulatorias 100%</p>
 <p>Prácticas médicas, bioquímicas, radiológicas 100% (con autorización y con coseguro)</p>
 <p>Prácticas Kinesiológicas 100% (con autorización y con coseguro)</p>
 <p>Medicamentos ambulatorios VADEMECUM LIBRE</p>
@@ -31,108 +147,131 @@
 <p>Cirugías y prácticas de alta complejidad nomecladas ( con autorización y con coseguro)</p>
 <p>Cirugía y prácticas de alta complejidad NO nomecladas ( con autorización y con coseguro)</p>
 <p>Ordenes con cargo</p>
-    </v-card-subtitle>
-
-
-    <v-expand-transition>
-      <div v-show="show">
-        <v-divider></v-divider>
-
-        <v-card-text>
-          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
-        </v-card-text>
-      </div>
-    </v-expand-transition>
+    </v-card-text>
+    <div class="text-center">
+    <v-card-actions>
+       
+    <v-btn
+      rounded
+      color="primary"
+      dark
+      href="https://cosechasalud.com" 
+      target="_blank"
+    >
+      Visitar Mutual cosecha Salud
+    </v-btn>
+ 
+    </v-card-actions>
+   </div>
   </v-card>
 
-    <v-row class="text-center">
-      <v-col cols="12">
-        <v-img
-          :src="require('../assets/logo.svg')"
-          class="my-3"
-          contain
-          height="200"
-        />
-      </v-col>
 
-      <v-col class="mb-4">
-        <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Vuetify
-        </h1>
+<v-divider
+  inset
+></v-divider>
 
-        <p class="subheading font-weight-regular">
-          For help and collaboration with other Vuetify developers,
-          <br>please join our online
-          <a
-            href="https://community.vuetifyjs.com"
-            target="_blank"
-          >Discord Community</a>
-        </p>
-      </v-col>
+  <v-card
+    class="mx-auto"
+    max-width="344"
+    :elevation= 14
+  >
 
-      <v-col
-        class="mb-5"
-        cols="12"
-      >
-        <h2 class="headline font-weight-bold mb-3">
-          What's next?
-        </h2>
+    <v-img
+      contain
+      src="../assets/Credencial-Integral-A.png"
+      height="379px"
+    ></v-img>
 
-        <v-row justify="center">
-          <a
-            v-for="(next, i) in whatsNext"
-            :key="i"
-            :href="next.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ next.text }}
-          </a>
-        </v-row>
-      </v-col>
+    <v-card-title>
+      <p>PI INTEGRAL A</p>
+    </v-card-title>
 
-      <v-col
-        class="mb-5"
-        cols="12"
-      >
-        <h2 class="headline font-weight-bold mb-3">
-          Important Links
-        </h2>
+    <v-card-text>
+  <p>Consultas médicas ambulatorias 100%</p>
+<p>Prácticas médicas, bioquímicas, radiológicas 100% (con autorización y con coseguro)</p>
+<p>Prácticas Kinesiológicas 100% (con autorización y con coseguro)</p>
+<p>Medicamentos ambulatorios VADEMECUM LIBRE</p>
+<p>En farmacia propia descuentos de 30% + hasta un 20%</p>
+<p>Farmacias adheridas descuentos 30%</p>
+<p>Odontología 100% (excluido prótesis y ortodoncia) (con autorización y con coseguro)</p>
+<p>Internaciones clínicas y/o quirúrgicas ( con autorización y sin coseguro)</p>
+<p>Medicamentos y descartables en internaciones 100%</p>
+<p>Cirugías y prácticas de alta complejidad nomecladas ( con autorización y con coseguro)</p>
+<p>Cirugía y prácticas de alta complejidad NO nomecladas ( con autorización y con coseguro)</p>
+<p>Ordenes con cargo</p>
+    </v-card-text>
+    <div class="text-center">
+    <v-card-actions>
+       
+    <v-btn
+      rounded
+      color="primary"
+      dark
+      href="https://cosechasalud.com" 
+      target="_blank"
+    >
+      Visitar Mutual cosecha Salud
+    </v-btn>
+ 
+    </v-card-actions>
+   </div>
+  </v-card>
 
-        <v-row justify="center">
-          <a
-            v-for="(link, i) in importantLinks"
-            :key="i"
-            :href="link.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ link.text }}
-          </a>
-        </v-row>
-      </v-col>
 
-      <v-col
-        class="mb-5"
-        cols="12"
-      >
-        <h2 class="headline font-weight-bold mb-3">
-          Ecosystem
-        </h2>
+  <v-divider
+  inset
+></v-divider>
 
-        <v-row justify="center">
-          <a
-            v-for="(eco, i) in ecosystem"
-            :key="i"
-            :href="eco.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ eco.text }}
-          </a>
-        </v-row>
-      </v-col>
-    </v-row>
+  <v-card
+    class="mx-auto"
+    max-width="344"
+    :elevation= 14
+  >
+
+    <v-img
+      contain
+      src="../assets/Credencial-Integral-B1.png"
+      height="379px"
+    ></v-img>
+
+    <v-card-title>
+      <p>PI INTEGRAL B1</p>
+    </v-card-title>
+
+    <v-card-text>
+      <p>Consultas médicas ambulatorias 100%</p>
+<p>Prácticas médicas, bioquímicas (en ambulatorio e internado) hasta 04 por mes ( con coseguro)</p>
+<p>Prácticas Radiológicas (no contrastada, con coseguro)</p>
+<p>Prácticas Kinesiológicas (con autorización y con coseguro)</p>
+<p>Medicamentos ambulatorios VADEMECUM LIBRE</p>
+<p>En farmacia propia descuentos de 30% + hasta un 20%</p>
+<p>Farmacias adheridas descuentos 30%</p>
+<p>Odontología (excluido prótesis y ortodoncia) (con coseguro)</p>
+<p>Internaciones clínicas (con autorización) y quirúrgicas ( con autorización y con coseguro)</p>
+<p>Medicamentos y descartables en internaciones 100%</p>
+<p>Cirugías y prácticas de alta complejidad nomecladas ( con autorización y con coseguro)</p>
+<p>Cirugía y prácticas de alta complejidad NO nomecladas ( con autorización y con coseguro)</p>
+<p>Ordenes con cargo</p>
+    </v-card-text>
+    <div class="text-center">
+    <v-card-actions>
+       
+    <v-btn
+      rounded
+      color="primary"
+      dark
+      href="https://cosechasalud.com" 
+      target="_blank"
+    >
+      Visitar Mutual cosecha Salud
+    </v-btn>
+ 
+    </v-card-actions>
+   </div>
+  </v-card>
+
+
+
   </v-container>
 </template>
 
